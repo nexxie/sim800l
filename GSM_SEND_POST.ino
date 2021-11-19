@@ -7,9 +7,9 @@
 #define SIM800_RST_PIN 6
 
 const char APN[] = "Internet.be";
-const char URL[] = "http://api.codecustoms.com:3956/send";
+const char URL[] = "http://api.example.com:3956/send";
 const char CONTENT_TYPE[] = "application/json";
-const char PAYLOAD[] = "{\"phone\": \"89117436445\", \"status\": \"ok\"}";
+const char PAYLOAD[] = "{\"phone\": \"+791112233\", \"status\": \"ok\"}";
 
 SIM800L* sim800l;
 
